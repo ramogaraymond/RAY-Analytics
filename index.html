@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1-0">
+    <title>RAY Analytics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fccca3b7a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo_transparent.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi, I'm <span>Raymond Ramoga</span></p>
+            <p>Data Analyst | Excel and Power BI Expert</p>
+            <h1>Providing The Best <span>Analytics</span><br>Solution For Your Business</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Analytics.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p>I'm a dedicated data analyst with a passion for transforming raw data into actionable insights. 
+                    With expertise in data collection, cleaning, and analysis, I specialize in uncovering valuable patterns and trends to drive informed decision-making. 
+                    Whether it's through exploratory analytics, data wrangling, or crafting visually compelling dashboards, I thrive on turning complex data into understandable and actionable intelligence. 
+                    My goal is to empower businesses to harness the power of their data, ultimately driving efficiency, innovation, and growth. 
+                    Let's work together to unlock the full potential of your data and propel your business forward.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Visualization</span><br>Provide Insights and Build Dashboards</li>
+                        <li><span>Data Wrangling</span><br>Clean, Transform and Structure Data</li>
+                        <li><span>Exploratory Data Analysis</span><br>Unraveling Patterns, Spotting Anomalies, and Visualizing Trend</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Human Resource Dashboard</span><br>Employee Overview, Performance and Absenteeism, and Attrition</li>
+                        <li><span>Adventure Works Dashboard</span><br>Executive Sales Dashboard, Sales Map, Customer Details Dashboard</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor of Science in Industrial Engineering</span><br>Quezon City University<br>(2018-2022)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-column"></i>
+                <h2>Data Visualization</h2>
+                <p>Transform your data into actionable insights with stunning visualizations and intuitive dashboards. 
+                    Our service specializes in turning complex data into clear and compelling visual stories, empowering you to make informed decisions at a glance. 
+                    Whether you're looking to track key performance indicators, monitor trends, or communicate insights to stakeholders, our expert team has you covered. 
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Wrangling</h2>
+                <p>With our Data Wrangling Service, you can trust that your data will be in expert hands. 
+                    I specialize in cleaning, transforming, and organizing your raw data, ensuring its accuracy and reliability. 
+                    Whether you're dealing with errors, inconsistencies, or missing values, we have the expertise to tackle them all. 
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-searchengin"></i>
+                <h2>Exploratory Data Analysis</h2>
+                <p>Dive deep into your data and uncover hidden insights with our expert guidance. 
+                    Our service offers a comprehensive exploration of your data, allowing you to discover patterns, trends, and correlations that drive business success. 
+                    I specialized in leveraging advanced analytical techniques to uncover valuable insights from your datasets, helping you make informed decisions with confidence.
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------portfolio------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project-1.1.png">
+                <div class="layer">
+                    <h3>Executive Sales Dashboard</h3>
+                    <p>This dashboard gives you the overview on what is happening in your business.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-1.3.png">
+                <div class="layer">
+                    <h3>Sales Map</h3>
+                    <p>This dashboard gives you the overview of sales in different region around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-1.2.png">
+                <div class="layer">
+                    <h3>Customer Detail Dashboard</h3>
+                    <p>This dashboard gives you the insights on your customer behaviour, preferences and their contribution to the sales</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="button">See more</a>
+    </div>
+</div>
+<!-- ---------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>raymond.ramoga02@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09286670222</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Raymond Ramoga.pdf" download class="button button2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button button2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © RAY Analytics. </p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyuH8PM24hT5_ouO13rx16bKhK3l_dK3Mx5zLLejTUEwerfdkZzLEAQsNRUOhkw5d7drQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
